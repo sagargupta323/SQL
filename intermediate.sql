@@ -52,7 +52,36 @@ Write a query to return the top 3 and bottom 3 products this month ranked by sal
 sales = sum(unit_price_usd * qty)
 */
 
+WITH top AS(
+	SELECT product_id, SUM(unit_price_usd * qty)
+	FROM orders
+    WHERE month(order_dt)=month(curdate())
+	GROUP BY product_id
+	ORDER BY SUM(unit_price_usd * qty) DESC 
+	LIMIT 3
+), 
+bottom AS (
+	SELECT product_id, SUM(unit_price_usd * qty) 
+	FROM orders
+    WHERE month(order_dt)=month(curdate())
+	GROUP BY product_id
+	ORDER BY SUM(unit_price_usd * qty) 
+	LIMIT 3
+)
+SELECT top.product_id, 'top'  AS category
+FROM top
+UNION ALL                                                                               ---- HINT
+SELECT bottom.product_id, 'bottom' AS category
+FROM bottom;
 
+--or use rank/dense_rank window function 
+
+/*
+We want to expand our subscription business and make it easy for our customers to have certain products delivered on a regular basis instead of having to reorder them every time.
+Products that are purchased multiple times by the same customers during this month can be considered as weekly or bi-weekly products for subscription.
+Find top 10 products that are purchased by the same customers this month (August 2021) and report their id.
+Rank those products based on the number of unique customers.
+*/
 
 
 
