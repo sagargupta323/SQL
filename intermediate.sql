@@ -83,7 +83,21 @@ Find top 10 products that are purchased by the same customers this month (August
 Rank those products based on the number of unique customers.
 */
 
+--- FIND MEDIAN
+--  Query the median of the Northern Latitudes (LAT_N) from STATION  Table and round your answer to  decimal places.
 
+
+    
+ set @index_row:=-1;
+ 
+ with cte as(
+ select @index_row:=@index_row + 1 as index_row, LAT_N
+ from station
+ order by LAT_N)
+ select round(avg(LAT_N),4)
+ from cte 
+ where
+ index_row in (floor(@index_row/2),ceil(@index_row/2))
 
 
     
