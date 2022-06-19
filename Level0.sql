@@ -41,7 +41,11 @@ ORDER BY salary DESC
 LIMIT 1 OFFSET 2;
 
 
-
+-- 2.Query to find duplicate rows in table?
+select emp_id,count(emp_id) as cnt
+from employees
+group by emp_id
+having cnt > 1;
 
 
 
