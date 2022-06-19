@@ -48,4 +48,37 @@ group by emp_id
 having cnt > 1;
 
 
+  SELECT 16;   what is the output of this query?
 
+A). Throw error
+B). 16                        --- Ans
+C). 0
+D). 1
+
+
+2).SELECT $     what is the output of this query?
+
+A). Throw error
+B). $
+C). 1
+D). 0.00                      --- Ans (only on Sql server)
+
+
+3). SELECT COUNT(*)     what is the output of this query?
+
+A). Throw error
+B). 0
+C). 1                         -- Ans
+D). *
+
+
+
+shopping
+fishing
+coding
+
+Expected Output:
+shopping, fishing, coding
+
+select group_concat(employee_name separator ',') as col
+from q10_employee
