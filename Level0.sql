@@ -82,3 +82,24 @@ shopping, fishing, coding
 
 select group_concat(employee_name separator ',') as col
 from q10_employee
+
++------------+--------------------+-------+
+| product_id | name               | price |
++------------+--------------------+-------+
+|         13 | Double Double      |     5 |
+|         14 | Neapolitan Shake   |     2 |
+|         15 | Animal Style Fries |     3 |
+|         16 | Root Beer          |     2 |
+|         17 | Lame T-Shirt       |    15 |
++------------+--------------------+-------+
+
+SELECT GROUP_CONCAT(name SEPARATOR ' + ') AS order_summary, SUM(price) AS total FROM product WHERE product_id IN (13, 15, 16);
+
+output:
++------------------------------------------------+-------+
+| order_summary                                  | total |
++------------------------------------------------+-------+
+| Double Double + Animal Style Fries + Root Beer |    10 |
++------------------------------------------------+-------+
+
+
