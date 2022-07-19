@@ -21,7 +21,11 @@
    25/12/13
    Dec 25, 2013 10:40 PM
    December 25, 2013 10:40 PM
-   
+  
+ 3. query Last 7 days data
+ 
+   Select * from table
+   WHERE datetimecol >= DATE(NOW()) + INTERVAL -7 DAY
 
 ------------------------------------------------------------------------------------------*/
 
