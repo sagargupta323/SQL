@@ -1,0 +1,46 @@
+Day 1:
+SQL Bolt (sqlbolt.com)
+Data Science Skills (bit.ly/3i6obPg) (EASY)
+
+Day 2:
+Average Post Hiatus (bit.ly/3WRPv2I) (EASY)
+Teams Power Users (bit.ly/3jCIggI) (EASY)
+Cards Issued Difference (bit.ly/3YUdhgi) (EASY)
+Pharmacy Analytics Part 1 (bit.ly/3hWwb5q) (EASY)
+Pharmacy Analytics Part 2 (bit.ly/3Q2Gm53) (EASY)
+Most Expensive Purchase (bit.ly/3VrvIWx) (EASY) (Premium)
+
+Day 3:
+Unfinished Parts (bit.ly/3Vydpzd) (EASY)
+Compressed Mean (bit.ly/3C8oDUf) (EASY)
+ApplePay Volume (bit.ly/3Cb9Sjg) (EASY) (Premium)
+Subject Matter Experts (bit.ly/3Grfskj) (EASY) (Premium)
+Highest Number of Products (bit.ly/3Go3LL0) (EASY) (Premium)
+Ad Campaign ROAS (bit.ly/3i0bNAw) (EASY) (Premium)
+Top Rated Businesses (bit.ly/3hSqjdG) (EASY) (Premium)
+
+Day 4:
+Average Deal Size (Part 2) (bit.ly/3vpRj7k) (MEDIUM) (Premium)
+Email Table Transformation (bit.ly/3WSr2Kq) (MEDIUM) (Premium)
+LinkedIn Power Creators (Part 2) (bit.ly/3FZf8aR) (MEDIUM) (Premium)
+Advertiser Status (bit.ly/3i2mhzh) (HARD)
+Average Vacant Days (bit.ly/3Wun3nC) (HARD) (Premium)
+3-Topping Pizzas (bit.ly/3GpHxIA) (HARD)
+Bad Delivery Rate (bit.ly/3IeNmKt) (HARD) (Premium)
+
+Day 5:
+Fill Missing Client Data (bit.ly/3C8JaYu) (MEDIUM)
+First Transaction (bit.ly/3vmsmJW) (MEDIUM) (Premium)
+Google Maps Flagged UGC (bit.ly/3IdKrS3) (MEDIUM) (Premium)
+Event Friends Recommendation (bit.ly/3jCzyiz) (HARD) (Premium)
+Follow-Up Airpod Percentage (bit.ly/3G562tl) (HARD) (Premium)
+
+Day 6:
+Highest-Grossing Items (bit.ly/3jE697G) (MEDIUM)
+Best-Selling_Product (bit.ly/3GnytnF) (MEDIUM)
+International Call Percentage (bit.ly/3PXrNzO) (MEDIUM)
+Reactivated Users (bit.ly/3GqWzhh) (HARD) (Premium)
+
+Day 7:
+Tweet's Rolling Averages (bit.ly/3I9JuKn) (MEDIUM)
+Rolling 3-Day Earnings (bit.ly/3vHPral) (HARD) (Bonus)
